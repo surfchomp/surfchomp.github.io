@@ -34,12 +34,6 @@ nav a{
     flex-wrap: wrap;
 }
 
-iframe{
-    height: 281px;
-    width: 500px;
-    border: 0px;
-    display: block;
-}
 h1{
     color: #7d1e2e;
 }
@@ -61,13 +55,23 @@ div{
 }
 
 /*iframes*/
+details{
+    width: 800px;
+}
+iframe{
+    height: 281px;
+    border: 0px;
+    display: block;
+}
+
+.live{
+    width: 500px;
+    border-radius: 10px 0px 0px 10px;
+}
 
 .weather{
-    height: 281px;
     width: auto;
     border-radius: 0 10px 10px 0;
 }
 
-.live{
-    border-radius: 10px 0px 0px 10px;
-}
+
