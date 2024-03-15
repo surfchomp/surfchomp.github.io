@@ -20,10 +20,18 @@ nav a{
     font-size: large;
     text-decoration: none;
     color: white;
+    text-shadow: 1px 1px 1px #611623, 2px 2px 1px #611623, 3px 3px 1px #611623,
+    4px 4px 1px #611623, 5px 5px 1px #611623;
 }
 .logo{
     height: 100px;
     width: 100px;
+}
+
+/*page titles*/
+.title{
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 /*Body*/
@@ -74,4 +82,14 @@ iframe{
     border-radius: 0 10px 10px 0;
 }
 
+/**advice page**/
+.tips{
+    margin-left: 25px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
 
+h3{
+    margin:25px;
+}
