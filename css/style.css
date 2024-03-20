@@ -23,6 +23,9 @@ nav a{
     text-shadow: 1px 1px 1px #611623, 2px 2px 1px #611623, 3px 3px 1px #611623,
     4px 4px 1px #611623, 5px 5px 1px #611623;
 }
+nav a:hover{
+    color:lightpink;
+}
 .logo{
     height: 100px;
     width: 100px;
@@ -92,4 +95,41 @@ iframe{
 
 h3{
     margin:25px;
+}
+
+/**Contact Form**/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #7d1e2e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #611623;
+}
+  
+.container {
+    border-radius: 10px;
+    background-color: #F2E8EA;
+    padding: 20px;
+    margin:auto;
+    width: 50%;
+}
+
+label{
+    font-weight: bold;
 }
